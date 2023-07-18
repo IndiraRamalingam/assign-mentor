@@ -39,7 +39,7 @@ const Student=mongoose.model('Student', studentSchema,'students');
 
 //endpoint for landing page
 app.get('/',(req,res) =>{
-    res.send("Welcome to Assign mentor API landing Page")
+    res.send("Welcome to Student and Mentor Assigning with Database!!")
 })
 
 
